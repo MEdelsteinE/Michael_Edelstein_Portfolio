@@ -1,0 +1,140 @@
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    background-color: #555;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*CUSTOM STYLES*/
+header {
+    background-color: beige;
+    padding: 4px 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*this can be replaced by another image*/
+.Flag {
+    height: 50px;
+    width: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+h1 {
+    color: #000;
+    font-size: auto;
+}
+
+p {
+    color: #000;
+    font-size: 30px;
+}
+
+/*.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 500px;
+    width: 500px;
+    this is how the pictures should be set
+}*/
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.prework {
+    color: #7fffd4;
+    margin: 200px;
+    font-size: 20px;
+}
+
+.Horiseon {
+    color: #7fffd4;
+    margin: 300px;
+    font-size: 20px;
+}
+
+p {
+    position: absolute;
+    color: #7fffd4;
+    top: 100px;
+    left: 0;
+}
+
+.first-paragraph {
+    color: #7fffd4;
+    font-size: 20px;
+    max-width: 500px;
+    position: relative;
+    top: auto;
+}
+
+.bowtie-cat {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+.second-paragraph {
+    color: #7fffd4;
+    font-size: 20px;
+    max-width: 500px;
+    margin-left: 600px;
+    margin-top: 200px;
+    
+}
+
+.notebook {
+    height: 500px;
+    width: 500px;
+    margin-top: auto;
+    margin-left: 600px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/*MEDIA Query*/
+@media (min-width: 750px) {
+    .portfolio {
+        padding: 25px 10%;
+    }
+}
