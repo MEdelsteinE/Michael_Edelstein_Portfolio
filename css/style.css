@@ -106,7 +106,7 @@ p {
     max-width: 500px;
     margin-left: 600px;
     margin-top: 200px;
-    
+
 }
 
 .notebook {
@@ -116,13 +116,22 @@ p {
     margin-left: 600px;
 }
 
+.pause {
+    margin-left: 90rem;
+}
 
+.save-state {
+    margin-left: 100rem;
+    color: aquamarine;
+}
 
-
-
-
-
-
+.third-p {
+    color: #7fffd4;
+    font-size: 20px;
+    max-width: 500px;
+    margin-left: 90rem;
+    margin-top: 50rem;
+}
 
 footer {
     background-color: beige;
